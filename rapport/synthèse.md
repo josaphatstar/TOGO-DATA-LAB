@@ -1,178 +1,132 @@
+# Rapport de Synthèse
 
-# Rapport de synthèse — Analyse des Services Publics au Togo
+**Optimisation du Réseau de Délivrance des Documents Administratifs au Togo**
+**Analyse 2023-2024**
 
-## 1. Contexte et objectifs
+**Auteur :** Josaphat TAGBA
+**Date :** Janvier 2026
+**Contact :** josaphattagba@gmail.com | +228 92993468
 
-Ce rapport présente une synthèse orientée décision à partir des données disponibles sur les demandes de services publics, l’activité des centres et la couverture territoriale.
+---
 
-Objectifs :
+## 1. Introduction et objectifs de l’analyse
 
-- **Mesurer la performance** de service (délais, rejets, activité).
-- **Évaluer l’accès / la couverture territoriale** (communes desservies vs communes totales).
-- **Identifier des écarts** (régions/communes/centres) et prioriser des actions.
-- **Outiller la décision** via un tableau de bord interactif.
+Cette analyse porte sur les données opérationnelles et territoriales relatives à la délivrance des documents administratifs au Togo sur la période 2023-2024 (Carte d’identité, Passeport, Acte de naissance, Livre de famille, Certificat de nationalité, Casier judiciaire, etc.).
 
-## 2. Données et périmètre
+**Objectifs principaux**
 
-### 2.1 Sources de données
+- Identifier les inégalités d’accès et de performance
+- Mesurer la capacité réelle du réseau existant (55 centres)
+- Proposer des leviers d’amélioration opérationnelle et stratégique
 
-Les analyses s’appuient sur les fichiers nettoyés suivants :
+**Périmètre des données**
 
-- Demandes : `data/cleaned_data/demandes_service_public_nettoye.csv`
-- Centres : `data/cleaned_data/centres_service_nettoye.csv`
-- Logs d’activité : `data/cleaned_data/logs_activite_nettoye.csv`
-- Référentiel des communes : `data/cleaned_data/details_communes_nettoye.csv`
+- 64 904 demandes enregistrées
+- 55 centres de service analysés
+- 200 communes décrites
+- Données socio-économiques et géographiques croisées
+- Logs opérationnels journaliers (450 enregistrements)
 
-### 2.2 Périmètre analytique
+---
 
-- L’analyse couvre le périmètre temporel et géographique représenté dans les fichiers.
-- Les agrégations utilisent principalement : `region`, `prefecture`, `commune`, ainsi que les dates de demande et d’opération.
+## 2. Principaux enseignements issus de l’analyse
 
-## 3. Démarche analytique
+### 2.1. Forte polarisation territoriale et urbaine
 
-### 3.1 Analyse exploratoire (EDA)
+La région **Maritime** concentre la majorité des demandes et des infrastructures.
 
-- Revue du schéma (colonnes, types), distributions et granularité.
-- Contrôles de cohérence (doublons, valeurs inattendues, dates invalides).
-- Identification des dimensions clés : volumétrie, géographie, performance et tendance temporelle.
+- Couverture territoriale nationale : **seulement 9 %** des 200 communes disposent d’un centre de service
+- Région Maritime : 3,9 % de couverture (mais ~58 % des demandes)
+- Régions du Nord (Kara, Savanes) : 1,1 % de couverture chacune
 
-### 3.2 Nettoyage / préparation
+→ Plus de 90 % des communes togolaises sont dépourvues de point d’accès physique, ce qui génère des inégalités d’accès majeures pour les populations rurales.
 
-Principaux traitements :
+### 2.2. Délais de traitement encore trop longs
 
-- Harmonisation des formats (dates, numériques).
-- Normalisation des libellés géographiques (région/commune).
-- **Protection des identifiants** (`*_id`) pour éviter des transformations destructrices.
+- Délai moyen global : **22,4 jours** (médiane ~22 jours)
+- Écart inter-régional : +13 % dans les régions du Nord (Savanes : 23,9 jours vs Maritime : 21,1 jours)
+- Temps d’attente moyen en guichet : **52 minutes** (jusqu’à 120 min dans les centres surchargés)
 
-Résultat : génération des fichiers `*_nettoye.csv` dans `data/cleaned_data/`.
+→ Les délais restent un frein important à la satisfaction usager et à l’efficacité administrative.
 
-### 3.3 KPI et dashboard
+### 2.3. Dominance de la Carte d’identité et motifs récurrents
 
-- Définition des KPI pour le pilotage opérationnel et territorial.
-- Implémentation et visualisation dans le dashboard Streamlit : `Dashboard/app.py`.
+- Carte d’identité : **~60 %** des demandes
+- Motifs principaux : perte/vol (~38 %), expiration (~24 %), première demande (~21 %)
+- Taux de rejet moyen : **7,4 %** (plus élevé en ligne et dans les zones rurales)
 
-## 4. KPI clés et interprétation
+→ La récurrence des duplicatas et la forte demande de CNI indiquent un besoin de campagnes de sensibilisation et de sécurisation des documents.
 
-Les champs entre accolades `{{...}}` sont à renseigner à partir des valeurs finales du dashboard.
+### 2.4. Hétérogénéité des capacités et sous-utilisation globale
 
-### 4.1 Total des demandes
+- Capacité moyenne par centre : ~126 personnes/jour (min 32 – max 358)
+- Taux d’occupation moyen national : **~0,7 %** (forte sous-utilisation globale)
+- Surcharge locale évidente dans 7 centres principaux (principalement Maritime)
 
-- **Total des demandes** : `{{TOTAL_DEMANDES}}`
+→ Le réseau est mal équilibré : surcapacité dans certains centres urbains, sous-équipement chronique ailleurs.
 
-Interprétation :
+---
 
-- Sert à dimensionner la charge globale et à suivre l’évolution par période, région et type de document.
+## 3. KPI clés et interprétation
 
-### 4.2 Délai moyen de traitement (pondéré)
+| KPI                                  | Valeur nationale | Interprétation                                                              | Région la plus performante | Région la plus faible          |
+| ------------------------------------ | ---------------- | ---------------------------------------------------------------------------- | --------------------------- | ------------------------------- |
+| Taux de couverture territoriale      | 9 %              | Seulement 9 communes sur 200 ont un centre → très faible décentralisation | Maritime (3,9 %)            | Kara, Savanes, Centrale (1,1 %) |
+| Délai moyen de traitement           | 22,4 jours       | Délai élevé, impact négatif sur l’expérience usager                    | Maritime (21,1 j)           | Savanes (23,9 j)                |
+| Taux de rejet moyen                  | 7,4 %            | Acceptable mais perfectible (surtout en ligne et rural)                      | Maritime (6,9 %)            | Savanes (7,8 %)                 |
+| Part de la Carte d’identité        | ~60 %            | Document ultra-dominant → priorité absolue dans les processus              | –                          | –                              |
+| Temps d’attente moyen en guichet    | 52 minutes       | Variable selon charge → surcharge locale évidente                          | Centres ruraux (~24 min)    | Centres urbains (~68 min)       |
+| Taux d’occupation moyen des centres | ~0,7 %           | Sous-utilisation globale mais surcharge critique dans 7 centres principaux   | Centres secondaires         | Centres principaux Lomé        |
 
-- **Délai moyen** : `{{DELAI_MOYEN_JOURS}}` jours
+**Interprétation globale**
+Les KPI révèlent un système **polarisé, inefficace territorialement et sous-optimal en termes de charge**. La faible couverture et les délais longs pénalisent fortement les populations rurales et du Nord, tandis que les centres urbains sont proches de la saturation.
 
-Règle (résumé) : moyenne de `delai_traitement_jours` pondérée par `nombre_demandes`.
+---
 
-Interprétation :
+## 4. Recommandations opérationnelles
 
-- Indicateur central de qualité de service.
-- Un délai élevé peut indiquer : sous-capacité, goulots administratifs, ruptures de stock, ou une complexité documentaire.
+### 4.1. Priorité n°1 : Décentralisation ciblée
 
-### 4.3 Taux de rejet (pondéré)
+- Implanter **10 à 15 nouveaux centres satellites** d’ici fin 2026, prioritairement dans :
+  - Plateaux (autour d’Atakpamé)
+  - Centrale (Sotouboua, Tchamba)
+  - Savanes (Dapaong périphérie, Mandouri)
+- Objectif intermédiaire 2026 : **taux de couverture ≥ 25 %** (50 communes équipées)
 
-- **Taux de rejet** : `{{TAUX_REJET_PCT}}` %
+### 4.2. Réduction des délais et amélioration de la qualité
 
-Règle (résumé) : moyenne de `taux_rejet` pondérée par `nombre_demandes`.
+- **Numérisation massive** des demandes (objectif : 70-80 % en ligne d’ici 2027)
+- **Accompagnement numérique** en zones rurales (points d’aide, formations locales)
+- **Campagne nationale** de sensibilisation sur la conservation des documents (réduction des duplicatas perte/vol)
 
-Interprétation :
+### 4.3. Optimisation des ressources existantes
 
-- Un taux de rejet élevé peut traduire : dossiers incomplets, mauvaise orientation, manque d’information usager, ou contrôles hétérogènes.
+- **Réallocation temporaire** de personnel des centres surchargés (Maritime) vers les zones intermédiaires
+- **Formation ciblée** du personnel sur les motifs de rejet récurrents
+- **Suivi mensuel** des KPI régionaux et des taux d’occupation
 
-### 4.4 Couverture territoriale
+### 4.4. Mesures de suivi et d’évaluation
 
-- **Couverture territoriale** : `{{COUVERTURE_PCT}}` %
+- Mettre en place un **dashboard national** accessible aux décideurs
+- Évaluation d’impact trimestrielle sur les 3 KPI prioritaires (couverture, délai, rejet)
+- Enquête de satisfaction usager à lancer en 2026
 
-Règle (résumé) :
+---
 
-- **Couverture (%) = communes desservies / communes totales × 100**
-- Les valeurs non informatives (ex: `"autres"`) sont exclues.
-- Calcul par région puis agrégation pour limiter les biais.
+## 5. Limites et perspectives
 
-Interprétation :
+**Limites de l’analyse actuelle**
 
-- Mesure l’accès réel des citoyens aux services sur le territoire.
-- Une couverture faible aide à cibler : nouvelles implantations, guichets mobiles, digitalisation.
+- Période courte (2023-2024) → pas de tendance longue
+- Données partielles sur la satisfaction usager et les coûts
+- Absence de données fines sur les flux physiques (distances réelles parcourues)
 
-### 4.5 Taux d’occupation (capacité vs activité)
+**Perspectives**
 
-- **Taux d’occupation** : `{{TAUX_OCCUPATION_PCT}}` %
+- Extension à d’autres services (permis de conduire, certificats divers)
+- Intégration de modèles prédictifs (pics saisonniers de demandes)
+- Évaluation d’un **guichet mobile** ou itinérant pour les zones les plus isolées
+- Partenariat public-privé pour accélérer la numérisation
 
-Règle (résumé) :
-
-- **Occupation (%) = volume traité / capacité théorique × 100**
-- Capacité théorique : somme des capacités journalières (`personnel_capacite_jour`) × nombre de jours observés.
-
-Interprétation :
-
-- **> 100%** : surcharge probable (risque d’allongement des délais).
-- **80–100%** : utilisation élevée (zone de vigilance).
-- **< 60%** : marge de capacité (optimisation possible avant ajout de ressources).
-
-## 5. Principaux enseignements (insights)
-
-À confirmer et illustrer à partir des vues du dashboard (carte, tendances, comparatifs régionaux) :
-
-1. **Disparités territoriales** : couverture et performance non homogènes entre régions.
-2. **Documents à forte demande** : certains types de documents concentrent la volumétrie et pilotent la charge.
-3. **Performance variable** : écarts notables entre communes/centres sur délais et rejets.
-4. **Tendances temporelles** : pics mensuels possibles nécessitant une gestion proactive des ressources.
-
-## 6. Recommandations opérationnelles
-
-### 6.1 Renforcer la couverture territoriale
-
-- Prioriser les zones sous-desservies via :
-  - extension du réseau de centres,
-  - guichets mobiles,
-  - partenariats locaux,
-  - digitalisation des démarches les plus fréquentes.
-
-### 6.2 Réduire les délais
-
-- Identifier les goulots par document/région/centre et :
-  - ajuster l’allocation d’effectifs,
-  - standardiser les procédures,
-  - suivre les délais sur une base hebdomadaire,
-  - mettre en place un pilotage par objectifs (SLA internes).
-
-### 6.3 Réduire les rejets
-
-- Agir en amont :
-  - checklists usager par document,
-  - pré-contrôle des pièces,
-  - formation ciblée des agents,
-  - communication des motifs de rejet et des corrections attendues.
-
-### 6.4 Optimiser la capacité (occupation)
-
-- Si occupation faible :
-  - optimiser la répartition des ressources, élargir certains services, renforcer l’orientation usager.
-- Si occupation élevée :
-  - plan de renfort (effectifs/horaires), réduction des tâches non essentielles, meilleure planification logistique.
-
-## 7. Limites et perspectives
-
-### 7.1 Limites
-
-- Qualité des libellés géographiques : impact direct sur le calcul de couverture.
-- Capacité théorique : `personnel_capacite_jour` peut être une approximation (absences, pannes, variations quotidiennes non capturées).
-- Données potentiellement hétérogènes selon les sources (pratiques de saisie).
-
-### 7.2 Perspectives
-
-- Ajouter un suivi plus fin (jour/semaine) et des alertes automatiques.
-- Introduire des KPI d’équité territoriale (écarts inter-régions, indice de dispersion).
-- Croiser avec données de contexte (population, distances, réseau routier) pour expliquer les disparités.
-- Mettre en place une actualisation automatisée des données.
-
-## 8. Références (projet)
-
-- Dashboard : `Dashboard/app.py`
-- Notebooks : `notebooks/`
-
+**Conclusion**
+Le réseau actuel souffre d’une **polarisation géographique et capacitaire extrême**. Une stratégie de décentralisation ciblée, combinée à une forte numérisation et à une meilleure répartition des ressources, permettrait de réduire significativement les inégalités d’accès et les délais, au bénéfice de l’ensemble de la population togolaise.
