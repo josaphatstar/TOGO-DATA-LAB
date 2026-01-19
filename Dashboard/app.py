@@ -351,16 +351,6 @@ def render_centers_table(demandes_f: pd.DataFrame, centres_f: pd.DataFrame):
         use_container_width=True
     )
 
-# Points d'attention
-def render_alerts():
-
-    st.subheader("Points de Vigilance")
-    with st.expander("Alerte : Délais élevés à Dapaong", expanded=False):
-        st.warning("Le centre de Dapaong présente un délai moyen de traitement de 5.2 jours, largement supérieur à la moyenne nationale (3.8 jours). Une inspection est recommandée.")
-
-    with st.expander("Forte demande de passeports", expanded=False):
-        st.info("Une augmentation de 25% des demandes de passeports a été enregistrée ce mois-ci. Vérifier les stocks de matériel.")
-
 # Fonction principale
 def main():
     load_css()
@@ -419,8 +409,6 @@ def main():
     col1, col2 = st.columns([2, 1])
     with col1:
         render_centers_table(demandes_f, centres_f)
-    with col2:
-        render_alerts()
 
 if __name__ == "__main__":
     main()
