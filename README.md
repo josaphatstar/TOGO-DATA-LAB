@@ -88,9 +88,9 @@ Si vous utilisez un environnement virtuel, installez d’abord les dépendances 
 
 ### Dépendances
 
-Le projet peut être exécuté avec les dépendances nécessaires au dashboard.
+Le projet peut être exécuté avec les dépendances présentes dans le fichier requirements.txt
 
-Si un fichier `Dashboard/requirements.txt` n’est pas présent, vous pouvez installer au minimum:
+Si un fichier `requirements.txt` n’est pas présent, vous pouvez installer au minimum:
 
 ```bash
 pip install streamlit pandas numpy plotly
