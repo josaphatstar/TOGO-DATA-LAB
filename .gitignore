@@ -1,3 +1,9 @@
 .specstory
 .vscode
 .cursorindexingignore
+__pycache__/
+*.pyc
+.env
+.DS_Store
+data/raw/
+*.ipynb_checkpoints
