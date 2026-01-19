@@ -115,14 +115,51 @@ def compute_kpis(demandes_f: pd.DataFrame, centres_f: pd.DataFrame, logs_f: pd.D
     delai_moyen = _weighted_mean(demandes_f, "delai_traitement_jours", "nombre_demandes")
     taux_rejet = _weighted_mean(demandes_f, "taux_rejet", "nombre_demandes")
 
-    # Couverture: communes présentes dans les demandes / communes référencées
-    communes_total = communes_all["commune"].dropna().nunique() if "commune" in communes_all.columns else None
-    communes_servies = demandes_f["commune"].dropna().nunique() if "commune" in demandes_f.columns else None
+    # Calcul de la couverture territoriale par région
     couverture = None
-    if communes_total and communes_total > 0 and communes_servies is not None:
-        couverture = float(100.0 * communes_servies / communes_total)
+    if not demandes_f.empty and "region" in demandes_f.columns and "commune" in demandes_f.columns:
+        try:
+            # Compter les communes uniques desservies par région (en excluant "autres")
+            communes_servies = (demandes_f[demandes_f["commune"] != "autres"]
+                            .groupby("region")["commune"]
+                            .nunique()
+                            .reset_index()
+                            .rename(columns={"commune": "communes_servies"}))
+            
+            # Compter le nombre total de communes par région (en excluant "autres")
+            if not communes_all.empty and "region" in communes_all.columns and "commune" in communes_all.columns:
+                communes_par_region = (communes_all[communes_all["commune"] != "autres"]
+                                    .groupby("region")["commune"]
+                                    .nunique()
+                                    .reset_index()
+                                    .rename(columns={"commune": "total_communes"}))
+                
+                # Fusion et calcul du taux avec gestion des valeurs manquantes
+                couverture_par_region = pd.merge(
+                    communes_servies, 
+                    communes_par_region, 
+                    on="region", 
+                    how="outer"  # Garde toutes les régions des deux côtés
+                ).fillna(0)  # Remplit les valeurs manquantes par 0
+                
+                # Calcul du taux de couverture avec gestion division par zéro
+                couverture_par_region["taux"] = couverture_par_region.apply(
+                    lambda x: (x["communes_servies"] / x["total_communes"] * 100) 
+                            if x["total_communes"] > 0 else 0,
+                    axis=1
+                )
+                
+                # Moyenne pondérée par le nombre de communes par région
+                total_communes = couverture_par_region["total_communes"].sum()
+                if total_communes > 0:
+                    couverture = (couverture_par_region["taux"] * couverture_par_region["total_communes"]).sum() / total_communes
+                    couverture = round(couverture, 2)  # Arrondi à 2 décimales
+                    
+        except Exception as e:
+            st.error(f"Erreur dans le calcul de la couverture : {str(e)}")
+            couverture = None
 
-    # Occupation: total traité / (capacité_jour * nb_jours) sur les centres filtrés
+    # Reste du code inchangé...
     taux_occupation = None
     if not logs_f.empty and "centre_id" in logs_f.columns and "personnel_capacite_jour" in centres_f.columns:
         cap = centres_f[["centre_id", "personnel_capacite_jour"]].dropna()
@@ -144,7 +181,6 @@ def compute_kpis(demandes_f: pd.DataFrame, centres_f: pd.DataFrame, logs_f: pd.D
         "taux_occupation": taux_occupation,
         "couverture": couverture,
     }
-
 # En-tête
 def render_header():
     st.title("📊 Tableau de Bord des Services Publics du Togo")
