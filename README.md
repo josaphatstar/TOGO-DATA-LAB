@@ -8,6 +8,13 @@ Ce repository contient un mini-projet de bout en bout (EDA → nettoyage → KPI
 - **Évaluer la couverture territoriale** (communes desservies vs communes totales).
 - **Fournir un support décisionnel** via un dashboard Streamlit et des livrables de restitution.
 
+## Accès au Dashboard
+
+L'application de visualisation est disponible en ligne :
+🔗 **[Dashboard en ligne](https://dashboard-togo-datalab.streamlit.app/)**
+
+Pour une utilisation en local, reportez-vous à la section [Installation et utilisation](#installation-et-utilisation).
+
 ## Livrables
 
 - **Notebooks d’EDA** et d’analyse:
