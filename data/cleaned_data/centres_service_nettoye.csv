@@ -1,0 +1,44 @@
+centre_id,nom_centre,type_centre,region,prefecture,commune,quartier,latitude,longitude,personnel_capacite_jour,nombre_guichets,heures_ouverture,horaire_nuit,equipement_numerique,date_ouverture,statut_centre
+ct002,centre kévé,secondaire,maritime,ave,keve,zone industrielle,6.2815,1.2182,63,2,08:00-16:00,non,limite,2020-09-14,actif
+ct003,centre gando,secondaire,savanes,oti-sud,gando,zone industrielle,10.2629,0.2525,98,2,08:00-16:00,non,partiel,2015-06-02,actif
+ct004,centre pagouda,secondaire,kara,binah,pagouda,gare routière,9.4247,1.1698,78,6,08:00-16:00,non,partiel,2019-12-03,actif
+ct005,centre tchamba,secondaire,centrale,tchamba,tchamba,carrefour,8.5008,0.9988,62,3,08:00-16:00,non,limite,2022-10-20,actif
+ct007,centre bassar,secondaire,kara,bassar,bassar,poste,9.42,1.0817,59,6,08:00-16:00,non,partiel,2020-02-11,actif
+ct009,centre tchamba,secondaire,centrale,tchamba,tchamba,résidentiel,8.791,1.0719,61,2,08:00-16:00,non,limite,2022-05-11,actif
+ct011,centre pagouda,secondaire,kara,binah,pagouda,préfecture,9.4996,0.9323,82,6,08:00-16:00,non,partiel,2017-11-30,actif
+ct012,centre sotouboua,secondaire,centrale,sotouboua,sotouboua,résidentiel,8.2161,1.3118,54,5,08:00-16:00,non,partiel,2022-07-15,actif
+ct013,centre tchamba,secondaire,centrale,tchamba,tchamba,centre ville,8.722,0.9914,114,2,08:00-16:00,non,limite,2016-10-19,actif
+ct014,centre tohoun,secondaire,plateaux,moyen-mono,tohoun,administratif,6.9574,0.6103,63,2,08:00-16:00,non,partiel,2015-01-10,actif
+ct015,centre danyi-apéyémé,secondaire,plateaux,danyi,danyi-apeyeme,carrefour,7.5719,0.8589,74,2,08:00-16:00,non,partiel,2017-06-14,actif
+ct016,centre lomé,secondaire,maritime,golfe,lomé,administratif,6.2788,1.3586,106,2,08:00-16:00,non,partiel,2023-07-08,actif
+ct017,centre tandjouaré,secondaire,savanes,tandjouare,tandjouare,administratif,10.5077,0.7187,114,3,08:00-16:00,non,limite,2023-06-10,actif
+ct018,centre bafilo,secondaire,kara,assoli,bafilo,centre ville,9.3919,1.366,37,3,08:00-16:00,non,limite,2015-07-25,actif
+ct019,centre aného,secondaire,maritime,lacs,aného,carrefour,6.5515,1.5809,101,6,08:00-16:00,non,partiel,2023-07-09,actif
+ct020,centre vogan,secondaire,maritime,vo,vogan,administratif,6.3093,1.3497,32,2,08:00-16:00,non,partiel,2019-09-03,actif
+ct021,centre djarkpanga,secondaire,centrale,mo,djarkpanga,carrefour,8.9139,1.2232,118,2,08:00-16:00,non,limite,2019-06-28,actif
+ct023,centre aného,secondaire,maritime,lacs,aného,hôpital,6.4766,1.6806,35,5,08:00-16:00,non,limite,2018-12-25,actif
+ct024,centre aného,secondaire,maritime,lacs,aného,centre ville,6.3565,1.5655,88,6,08:00-16:00,non,partiel,2020-08-10,actif
+ct025,centre tchamba,secondaire,centrale,tchamba,tchamba,poste,9.05,1.2894,80,3,08:00-16:00,non,partiel,2016-03-06,actif
+ct027,centre naki-est,secondaire,savanes,kpendjal-ouest,naki-est,poste,10.3158,0.5043,88,4,08:00-16:00,non,partiel,2019-12-15,actif
+ct028,centre blitta-gare,secondaire,centrale,blitta,blitta-gare,hôpital,8.5788,1.1986,39,3,08:00-16:00,non,partiel,2021-07-05,actif
+ct030,centre tandjouaré,secondaire,savanes,tandjouare,tandjouare,gare routière,11.0022,0.7954,45,4,08:00-16:00,non,partiel,2016-02-23,actif
+ct031,centre vogan,secondaire,maritime,vo,vogan,centre ville,6.2145,1.4578,64,6,08:00-16:00,non,limite,2017-07-27,actif
+ct032,centre dapaong,secondaire,savanes,tone,dapaong,gare routière,10.1609,0.1614749999999997,59,3,08:00-16:00,non,partiel,2016-03-21,actif
+ct033,centre tabligbo,secondaire,maritime,yoto,tabligbo,préfecture,6.3354,1.2679,115,6,08:00-16:00,non,partiel,2022-10-26,actif
+ct034,centre djarkpanga,secondaire,centrale,mo,djarkpanga,résidentiel,8.7926,1.276,111,5,08:00-16:00,non,limite,2022-05-01,actif
+ct038,centre guérin-kouka,secondaire,kara,dankpen,guerin-kouka,centre ville,9.6594,1.1678,81,6,08:00-16:00,non,partiel,2023-04-24,actif
+ct039,centre lomé,secondaire,maritime,golfe,lomé,carrefour,6.2248,1.3339,110,4,08:00-16:00,non,limite,2018-12-06,actif
+ct040,centre sokodé,secondaire,centrale,tchaoudjo,sokodé,résidentiel,8.9743,1.1478,118,2,08:00-16:00,non,partiel,2020-03-04,actif
+ct041,centre kévé,secondaire,maritime,ave,keve,administratif,6.2406,1.5318,113,3,08:00-16:00,non,partiel,2022-08-24,actif
+ct043,centre niamtougou,secondaire,kara,doufelgou,niamtougou,marché,9.5764,0.9782,41,2,08:00-16:00,non,partiel,2023-12-21,actif
+ct044,centre amlamé,secondaire,plateaux,amou,amlame,gare routière,7.632,1.1313,54,2,08:00-16:00,non,partiel,2020-12-26,actif
+ct045,centre aného,secondaire,maritime,lacs,aného,zone industrielle,6.5721,1.2267,100,2,08:00-16:00,non,limite,2017-01-21,actif
+ct046,centre djarkpanga,secondaire,centrale,mo,djarkpanga,hôpital,8.4259,1.2054,87,3,08:00-16:00,non,partiel,2015-05-22,actif
+ct047,centre kanté,secondaire,kara,keran,kante,carrefour,9.9934,0.8713,74,4,08:00-16:00,non,partiel,2023-04-10,actif
+ct048,centre kévé,secondaire,maritime,ave,keve,marché,6.3456,1.5279,87,6,08:00-16:00,non,partiel,2015-10-26,actif
+ct049,centre guérin-kouka,secondaire,kara,dankpen,guerin-kouka,carrefour,9.9226,1.1138,77,5,08:00-16:00,non,partiel,2018-09-28,actif
+ct050,centre mandouri,secondaire,savanes,kpendjal,mandouri,marché,10.2819,0.6347,82,5,08:00-16:00,non,partiel,2015-05-22,actif
+ct051,centre sotouboua,secondaire,centrale,sotouboua,sotouboua,résidentiel,9.1659,0.8743,109,2,08:00-16:00,non,partiel,2022-05-29,actif
+ct052,centre naki-est,secondaire,savanes,kpendjal-ouest,naki-est,poste,10.6172,0.5627,106,5,08:00-16:00,non,partiel,2016-03-12,actif
+ct053,centre tchamba,secondaire,centrale,tchamba,tchamba,résidentiel,8.6851,0.8158,45,5,08:00-16:00,non,partiel,2023-12-05,actif
+ct055,centre notsé,secondaire,plateaux,haho,notse,gare routière,7.1331,0.7312,85,2,08:00-16:00,non,partiel,2020-07-25,actif

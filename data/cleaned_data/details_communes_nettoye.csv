@@ -1,0 +1,181 @@
+commune_id,commune,prefecture,region,latitude,longitude,altitude_m,superficie_km2,population_densite,code_postal,type_commune,distance_capitale_km,zone_climatique
+autres,autres,vo,maritime,6.2295,1.504,19,343,35,autres,rurale,34,côtière
+autres,autres,vo,maritime,6.6892,1.6588,39,398,210,bp 239,semi-urbaine,79,côtière
+autres,autres,vo,maritime,6.4158,1.2398,47,215,76,bp 495,rurale,31,côtière
+autres,autres,vo,maritime,6.2023,1.618,41,230,95,bp 60,rurale,45,côtière
+autres,autres,vo,maritime,6.3068,1.6507,25,318,58,bp 235,rurale,52,côtière
+autres,autres,vo,maritime,6.5616,1.1123,57,538,74,autres,rurale,48,côtière
+autres,autres,vo,maritime,6.2173,1.2472,17,310,64,autres,rurale,10,côtière
+autres,autres,vo,maritime,6.2618,1.5716,23,242,51,autres,rurale,42,côtière
+autres,autres,vo,maritime,6.3401,1.5525,9,172,114,bp 145,semi-urbaine,44,côtière
+autres,autres,golfe,maritime,6.2115,1.3873,43,303,79,bp 265,rurale,21,côtière
+autres,autres,golfe,maritime,6.5814,1.2798,67,360,69,autres,rurale,50,côtière
+autres,autres,golfe,maritime,6.6432,1.5084,35,229,92,autres,rurale,65,côtière
+autres,autres,golfe,maritime,6.4819,1.4127,66,587,35,autres,rurale,44,côtière
+autres,autres,golfe,maritime,6.6165,1.1737,69,190,176,bp 265,semi-urbaine,53,côtière
+autres,autres,golfe,maritime,6.4349,1.6223,35,198,291,autres,semi-urbaine,56,côtière
+autres,autres,golfe,maritime,6.5254,1.4652,45,474,77,autres,rurale,51,côtière
+autres,autres,golfe,maritime,6.272,1.3712,62,554,95,bp 86,rurale,23,côtière
+autres,autres,lacs,maritime,6.3144,1.3789,54,249,89,bp 235,rurale,27,côtière
+autres,autres,lacs,maritime,6.5493,1.6887,70,337,53,autres,rurale,70,côtière
+autres,autres,lacs,maritime,6.35,1.3641,20,258,219,autres,semi-urbaine,29,côtière
+autres,autres,lacs,maritime,6.3649,1.4155,61,502,79,autres,rurale,34,côtière
+autres,autres,lacs,maritime,6.5684,1.6742,34,504,45,autres,rurale,70,côtière
+autres,kouve,lacs,maritime,6.6558,1.2556,49,463,63,autres,rurale,58,côtière
+autres,autres,yoto,maritime,6.2225,1.6213,8,393,30,autres,rurale,46,côtière
+autres,autres,yoto,maritime,6.4008,1.1897,58,488,25,autres,rurale,29,côtière
+autres,kouve,yoto,maritime,6.3459,1.1203,42,466,38,autres,rurale,25,côtière
+autres,autres,yoto,maritime,6.3875,1.181,28,251,30,autres,rurale,28,côtière
+autres,autres,yoto,maritime,6.357,1.1602,12,352,90,autres,rurale,25,côtière
+autres,autres,yoto,maritime,6.1349,1.5794,35,290,50,autres,rurale,41,côtière
+autres,autres,yoto,maritime,6.6128,1.6581,17,372,257,autres,semi-urbaine,72,côtière
+autres,autres,bas-mono,maritime,6.5195,1.4087,67,420,25,autres,rurale,48,côtière
+autres,autres,bas-mono,maritime,6.2308,1.6298,33,292,314,autres,semi-urbaine,47,côtière
+autres,autres,bas-mono,maritime,6.6689,1.4203,16,204,25,autres,rurale,63,côtière
+autres,autres,bas-mono,maritime,6.4763,1.5815,33,285,307,bp 278,semi-urbaine,56,côtière
+autres,autres,zio,maritime,6.5653,1.5996,42,364,37,autres,rurale,64,côtière
+autres,autres,zio,maritime,6.1637,1.151,68,239,244,bp 369,semi-urbaine,7,côtière
+autres,autres,zio,maritime,6.6939,1.1789,16,278,80,autres,rurale,62,côtière
+autres,autres,zio,maritime,6.3759,1.2368,21,417,33,autres,rurale,27,côtière
+autres,autres,zio,maritime,6.5883,1.2586,20,342,272,bp 486,semi-urbaine,50,côtière
+autres,autres,zio,maritime,6.2196,1.2554,9,550,40,bp 303,rurale,10,côtière
+autres,autres,zio,maritime,6.1319,1.4152,58,565,90,bp 251,rurale,22,côtière
+autres,autres,zio,maritime,6.3577,1.4918,9,518,85,bp 486,rurale,39,côtière
+autres,autres,ave,maritime,6.5429,1.4322,36,565,53,bp 369,rurale,51,côtière
+autres,autres,ave,maritime,6.4202,1.4697,49,527,35,autres,rurale,42,côtière
+autres,autres,ave,maritime,6.3149,1.1087,28,497,80,bp 251,rurale,23,côtière
+autres,autres,ave,maritime,6.5822,1.3666,34,224,269,autres,semi-urbaine,52,côtière
+autres,autres,ave,maritime,6.238,1.2078,41,229,48,autres,rurale,11,côtière
+autres,autres,ogou,plateaux,7.2962,1.2088,438,151,144,autres,semi-urbaine,129,transition
+autres,autres,ogou,plateaux,7.4198,0.6178,204,541,82,autres,rurale,157,transition
+autres,autres,ogou,plateaux,7.6443,1.0933,620,271,29,autres,rurale,168,plateau/montagneux
+autres,autres,ogou,plateaux,6.8704,0.8606,580,600,61,autres,rurale,90,transition
+autres,autres,kloto,plateaux,7.5735,1.3233,454,316,82,autres,rurale,160,savane
+autres,autres,kloto,plateaux,7.2998,0.8104,677,234,69,autres,rurale,137,transition
+autres,autres,kloto,plateaux,7.5069,0.9189,566,506,78,bp 235,rurale,156,plateau/montagneux
+autres,autres,kloto,plateaux,7.2901,1.2688,727,443,73,autres,rurale,128,transition
+autres,autres,kloto,plateaux,7.455,0.925,450,474,74,bp 387,rurale,150,transition
+autres,autres,amou,plateaux,7.5964,0.9649,783,456,62,autres,rurale,165,plateau/montagneux
+autres,autres,amou,plateaux,7.227,1.0165,261,278,277,autres,semi-urbaine,123,transition
+autres,autres,amou,plateaux,7.8,0.8909,345,551,92,bp 486,rurale,188,savane
+autres,autres,amou,plateaux,6.8628,1.033,554,552,78,bp 359,rurale,83,transition
+autres,autres,wawa,plateaux,7.5835,0.8888,293,401,96,bp 145,rurale,165,savane
+autres,autres,wawa,plateaux,7.6033,1.393,761,551,26,autres,rurale,164,savane
+autres,autres,wawa,plateaux,7.7905,0.8272,461,259,34,bp 165,rurale,189,plateau/montagneux
+autres,autres,wawa,plateaux,7.1137,0.9886,266,284,225,bp 443,semi-urbaine,111,transition
+autres,autres,haho,plateaux,7.1188,0.7905,494,267,124,autres,semi-urbaine,119,transition
+autres,autres,haho,plateaux,7.3876,0.6041,545,434,69,autres,rurale,154,transition
+autres,autres,haho,plateaux,7.4108,1.0955,473,385,24,autres,rurale,142,transition
+autres,autres,haho,plateaux,7.3161,0.9934,419,430,52,autres,rurale,133,transition
+autres,autres,haho,plateaux,7.4411,0.8366,475,369,271,autres,semi-urbaine,151,transition
+autres,autres,est-mono,plateaux,7.4461,0.9092,620,311,22,autres,rurale,149,transition
+autres,autres,est-mono,plateaux,7.8356,1.3492,400,328,42,autres,rurale,189,plateau/montagneux
+autres,autres,est-mono,plateaux,7.076,0.8052,342,243,24,autres,rurale,114,transition
+autres,autres,est-mono,plateaux,7.3086,1.4818,511,563,56,autres,rurale,134,transition
+autres,autres,moyen-mono,plateaux,7.1026,1.2803,475,322,44,autres,rurale,108,transition
+autres,autres,moyen-mono,plateaux,7.7501,1.0666,574,456,34,autres,rurale,180,savane
+autres,autres,moyen-mono,plateaux,7.0986,0.7684,620,333,68,bp 140,rurale,118,transition
+autres,autres,moyen-mono,plateaux,7.4401,0.6113,345,242,140,autres,semi-urbaine,159,transition
+autres,autres,danyi,plateaux,7.4332,1.3638,753,492,71,autres,rurale,145,transition
+autres,autres,danyi,plateaux,6.8536,0.9026,678,166,157,bp 90,semi-urbaine,87,transition
+autres,autres,danyi,plateaux,7.6925,0.6207,433,547,21,autres,rurale,185,plateau/montagneux
+autres,autres,agou,plateaux,7.6303,1.1506,310,550,37,bp 133,rurale,166,plateau/montagneux
+autres,autres,agou,plateaux,7.3624,1.1512,459,168,295,autres,semi-urbaine,136,transition
+autres,autres,agou,plateaux,6.8221,1.2077,748,352,42,autres,rurale,76,transition
+autres,autres,agou,plateaux,7.297,0.7578,231,561,74,autres,rurale,138,transition
+autres,autres,kpele,plateaux,6.9239,0.6783,342,395,70,autres,rurale,105,transition
+autres,autres,kpele,plateaux,7.9301,1.3726,614,421,43,autres,rurale,200,plateau/montagneux
+autres,autres,kpele,plateaux,7.6366,0.7547,478,500,34,bp 130,rurale,174,savane
+autres,autres,akebou,plateaux,7.6294,0.7719,682,346,110,autres,semi-urbaine,173,plateau/montagneux
+autres,autres,akebou,plateaux,7.3673,1.2169,523,293,59,autres,rurale,137,transition
+autres,autres,akebou,plateaux,7.5892,0.618,547,548,20,autres,rurale,174,plateau/montagneux
+autres,autres,tchaoudjo,centrale,8.2666,1.3344,249,514,79,bp 90,rurale,237,plateau/montagneux
+autres,autres,tchaoudjo,centrale,8.5145,1.2027,361,205,61,autres,rurale,264,plateau/montagneux
+autres,autres,tchaoudjo,centrale,8.5561,1.2756,348,340,180,autres,semi-urbaine,269,savane
+autres,autres,sotouboua,centrale,9.1953,1.3893,256,204,183,bp 96,semi-urbaine,341,savane
+autres,autres,sotouboua,centrale,8.9398,1.2981,314,515,28,autres,rurale,312,savane
+autres,autres,sotouboua,centrale,8.5231,1.3393,321,353,34,bp 265,rurale,266,plateau/montagneux
+autres,autres,sotouboua,centrale,8.4061,1.1782,254,504,87,bp 140,rurale,252,savane
+autres,autres,sotouboua,centrale,8.3271,0.9017,320,353,48,bp 434,rurale,246,savane
+autres,autres,sotouboua,centrale,8.5716,1.1457,306,411,40,autres,rurale,271,plateau/montagneux
+autres,autres,tchamba,centrale,8.1485,1.0437,307,373,305,autres,semi-urbaine,224,plateau/montagneux
+autres,autres,tchamba,centrale,8.4864,1.3297,349,321,96,autres,rurale,262,plateau/montagneux
+autres,autres,tchamba,centrale,8.5307,1.3615,347,473,63,autres,rurale,267,savane
+autres,autres,tchamba,centrale,9.1267,1.2106,251,303,172,autres,semi-urbaine,332,savane
+autres,autres,blitta,centrale,8.767,1.1609,211,302,72,autres,rurale,292,savane
+autres,autres,blitta,centrale,8.7354,0.8606,247,462,84,autres,rurale,291,plateau/montagneux
+autres,autres,blitta,centrale,8.6195,0.8255,339,436,91,autres,rurale,279,plateau/montagneux
+autres,autres,blitta,centrale,8.3684,1.3465,221,338,43,autres,rurale,249,plateau/montagneux
+autres,autres,blitta,centrale,8.5297,1.16,220,281,145,autres,semi-urbaine,266,plateau/montagneux
+autres,autres,blitta,centrale,9.0301,1.3911,294,351,202,autres,semi-urbaine,322,savane
+autres,autres,mo,centrale,9.1042,1.2667,211,594,46,bp 373,rurale,330,savane
+autres,autres,mo,centrale,8.63,1.3117,385,385,75,bp 278,rurale,277,plateau/montagneux
+autres,autres,mo,centrale,8.418,1.2378,366,231,25,bp 133,rurale,254,plateau/montagneux
+autres,autres,kozah,kara,9.8328,1.2148,600,244,32,autres,rurale,411,savane
+autres,autres,kozah,kara,9.3065,1.1225,560,407,45,bp 495,rurale,353,savane
+autres,autres,kozah,kara,9.5965,1.0711,319,518,77,bp 165,rurale,385,savane
+autres,autres,kozah,kara,9.9258,1.1776,422,202,106,autres,semi-urbaine,421,savane
+autres,autres,kozah,kara,9.652,1.0982,397,224,42,bp 96,rurale,391,savane
+autres,autres,kozah,kara,9.941,0.8627,333,510,81,bp 373,rurale,425,savane
+autres,autres,binah,kara,9.3311,0.7639,403,397,94,autres,rurale,359,savane
+autres,autres,binah,kara,9.4335,0.7516,511,291,62,bp 303,rurale,370,savane
+autres,autres,binah,kara,9.9173,1.1252,456,239,38,autres,rurale,420,savane
+autres,autres,binah,kara,9.7175,0.7314,587,505,26,autres,rurale,402,savane
+autres,autres,doufelgou,kara,9.4997,1.209,485,378,210,autres,semi-urbaine,374,savane
+autres,autres,doufelgou,kara,9.5965,1.0334,481,343,80,autres,rurale,385,savane
+autres,autres,doufelgou,kara,9.6184,1.0219,360,225,39,autres,rurale,388,savane
+autres,autres,doufelgou,kara,9.61,1.1495,476,322,282,autres,semi-urbaine,386,savane
+autres,autres,keran,kara,9.7156,1.216,495,561,72,autres,rurale,398,savane
+autres,autres,keran,kara,9.7895,1.2611,317,150,283,bp 443,semi-urbaine,406,savane
+autres,autres,keran,kara,9.5982,0.8637,470,250,64,autres,rurale,387,savane
+autres,autres,bassar,kara,9.4493,1.0403,396,292,49,autres,rurale,369,savane
+autres,autres,bassar,kara,9.45,0.8419,528,171,203,bp 140,semi-urbaine,371,savane
+autres,autres,bassar,kara,9.6046,1.1946,561,211,20,autres,rurale,386,savane
+autres,autres,bassar,kara,9.9307,1.3857,370,185,118,autres,semi-urbaine,422,savane
+autres,autres,bassar,kara,9.6888,1.0387,443,217,107,autres,semi-urbaine,395,savane
+autres,autres,dankpen,kara,9.4174,1.26,460,323,156,autres,semi-urbaine,365,savane
+autres,autres,dankpen,kara,9.3358,0.927,344,476,41,autres,rurale,357,savane
+autres,autres,dankpen,kara,9.7471,1.1622,417,425,87,autres,rurale,401,savane
+autres,autres,assoli,kara,9.7211,0.9228,433,376,59,autres,rurale,400,savane
+autres,autres,assoli,kara,9.3318,1.044,381,205,122,bp 434,semi-urbaine,356,savane
+autres,autres,assoli,kara,9.5172,0.9871,351,312,77,autres,rurale,377,savane
+autres,autres,assoli,kara,9.4143,0.8888,364,599,86,autres,rurale,366,savane
+autres,autres,tone,savanes,10.269,0.4208,185,418,75,autres,rurale,468,savane
+autres,autres,tone,savanes,10.1416,0.5672,282,543,84,bp 165,rurale,451,savane
+autres,autres,tone,savanes,10.5064,0.7815,290,577,53,autres,rurale,488,savane
+autres,autres,tone,savanes,10.644,0.737,198,571,40,autres,rurale,504,savane
+autres,autres,oti,savanes,10.1324,0.399,187,516,36,autres,rurale,453,savane
+autres,autres,oti,savanes,10.3931,0.3643,212,592,22,autres,rurale,482,savane
+autres,autres,oti,savanes,10.3277,0.7434,208,331,87,autres,rurale,469,savane
+autres,autres,oti,savanes,10.3601,0.4661,186,582,46,autres,rurale,477,savane
+autres,autres,oti-sud,savanes,11.0078,0.12953749999999997,297,258,82,autres,rurale,556,savane
+autres,autres,oti-sud,savanes,10.6516,0.5687,236,499,39,autres,rurale,507,savane
+autres,autres,tandjouare,savanes,11.0323,0.724,213,508,39,autres,rurale,547,savane
+autres,autres,tandjouare,savanes,10.724,0.4623,205,250,85,autres,rurale,517,savane
+autres,autres,tandjouare,savanes,10.666,0.1359,210,464,84,autres,rurale,517,savane
+autres,autres,tandjouare,savanes,10.5375,0.5102,215,422,97,autres,rurale,495,savane
+autres,autres,autres,savanes,10.4909,0.2993,221,405,70,autres,rurale,494,savane
+autres,autres,kpendjal-ouest,savanes,10.2433,0.3525,284,368,35,bp 130,rurale,466,savane
+autres,autres,kpendjal-ouest,savanes,10.6374,0.4215,178,520,60,autres,rurale,508,savane
+autres,autres,cinkasse,savanes,10.6958,0.2267,206,426,41,autres,rurale,518,savane
+autres,autres,cinkasse,savanes,10.3702,0.1801,176,354,275,autres,semi-urbaine,484,savane
+autres,autres,cinkasse,savanes,10.8937,0.3891,182,343,90,autres,rurale,537,savane
+autres,autres,cinkasse,savanes,10.7569,0.3913,222,350,58,bp 387,rurale,522,savane
+autres,autres,mo,centrale,8.4059,1.1227,230,594,43,autres,rurale,252,savane
+autres,cinkasse central,cinkasse,savanes,10.4917,0.5524,246,579,90,autres,rurale,490,savane
+autres,cinkasse central,cinkasse,savanes,10.7236,0.12953749999999997,216,570,58,bp 133,rurale,527,savane
+autres,autres,kloto,plateaux,7.283,0.8564,718,303,54,autres,rurale,133,transition
+autres,autres,oti,savanes,10.5239,0.7223,153,204,117,autres,semi-urbaine,491,savane
+autres,autres,doufelgou,kara,9.586,1.0418,445,489,59,autres,rurale,384,savane
+autres,autres,tchamba,centrale,8.1209,1.1972,213,219,191,bp 359,semi-urbaine,221,savane
+autres,autres,blitta,centrale,8.761,0.9967,227,359,77,bp 60,rurale,293,plateau/montagneux
+autres,autres,zio,maritime,6.4361,1.2453,40,207,155,autres,semi-urbaine,33,côtière
+autres,autres,moyen-mono,plateaux,7.6198,1.2165,782,204,87,autres,rurale,165,savane
+autres,autres,golfe,maritime,6.5376,1.4561,46,563,34,autres,rurale,52,côtière
+autres,autres,amou,plateaux,7.0759,0.7311,218,170,218,autres,semi-urbaine,117,transition
+autres,autres,dankpen,kara,9.431,1.3692,332,388,43,autres,rurale,367,savane
+autres,autres,amou,plateaux,7.7697,1.1979,283,540,43,autres,rurale,182,savane
+autres,autres,tandjouare,savanes,10.4127,0.485,154,377,224,bp 86,semi-urbaine,482,savane
+autres,autres,binah,kara,9.9073,1.082,566,215,94,autres,rurale,419,savane
+autres,autres,amou,plateaux,7.5256,0.679,447,501,29,autres,rurale,165,savane
+autres,autres,sotouboua,centrale,8.8053,0.9035,396,328,292,bp 239,semi-urbaine,299,plateau/montagneux

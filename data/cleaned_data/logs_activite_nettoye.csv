@@ -1,0 +1,371 @@
+log_id,centre_id,date_operation,type_operation,type_document,nombre_traite,delai_effectif,nombre_rejete,raison_rejet,personnel_present,temps_attente_moyen_minutes,incident_technique,heure_debut,heure_fin
+autres,ct015,2023-10-30,traitement,carte d'identité,241.0,41,22,non éligible,15,58,non,08:00,16:00
+autres,ct049,2023-08-22,traitement,livre de famille,62.0,19,0,signature manquante,12,95,non,08:30,17:30
+autres,ct047,2023-07-13,traitement,acte de naissance,139.0,22,12,double demande,7,54,non,08:15,16:15
+autres,ct008,2023-04-08,traitement,passeport,71.0,35,6,double demande,13,94,oui,08:30,17:30
+autres,ct052,2023-12-07,traitement,certificat de nationalité,20.0,40,0,signature manquante,8,95,non,07:15,15:15
+autres,ct027,2023-12-07,traitement,certificat de nationalité,82.0,35,11,double demande,13,112,oui,08:45,16:45
+autres,ct029,2023-02-16,traitement,carte d'identité,66.0,16,8,signature manquante,10,86,non,08:30,16:30
+autres,ct049,2023-12-28,traitement,carte d'identité,31.0,11,4,photo non conforme,11,77,non,09:30,18:30
+autres,ct019,2023-12-10,traitement,certificat de nationalité,56.0,6,4,non éligible,6,21,non,08:45,18:45
+autres,autres,2023-02-28,traitement,casier judiciaire,38.0,34,4,signature manquante,3,80,non,09:15,18:15
+autres,ct021,2023-09-05,traitement,acte de naissance,174.0,26,17,erreur acte,15,86,non,09:45,17:45
+autres,autres,2023-01-26,traitement,passeport,73.0,35,6,papiers incomplets,5,119,non,08:00,17:00
+autres,ct045,2023-02-18,traitement,acte de naissance,90.0,43,8,double demande,12,109,non,07:30,15:30
+autres,ct052,2023-08-28,traitement,casier judiciaire,271.5,20,22,photo non conforme,7,95,non,08:00,17:00
+autres,ct010,2023-09-17,traitement,carte d'identité,68.0,26,1,signature manquante,4,46,non,09:15,18:15
+autres,ct041,2023-08-20,traitement,casier judiciaire,58.0,16,8,adresse invalide,9,15,non,08:45,17:45
+autres,ct039,2023-11-11,traitement,casier judiciaire,54.0,25,7,double demande,15,57,non,08:45,18:45
+autres,ct032,2023-10-06,traitement,certificat de nationalité,150.0,43,17,non éligible,10,113,non,08:30,18:30
+autres,ct033,2023-02-28,traitement,passeport,96.0,37,5,non éligible,9,66,non,07:00,15:00
+autres,ct030,2023-03-21,traitement,certificat de nationalité,162.0,21,17,signature manquante,4,26,non,08:15,17:15
+autres,ct034,2023-11-05,traitement,acte de naissance,54.0,17,0,signature manquante,6,13,non,08:00,16:00
+autres,ct037,2023-08-22,traitement,livre de famille,82.0,40,6,papiers incomplets,6,66,non,09:30,18:30
+autres,ct051,2023-04-20,traitement,livre de famille,225.0,5,7,signature manquante,10,103,non,07:00,16:00
+autres,ct032,2023-05-09,traitement,carte d'identité,38.0,18,0,signature manquante,11,73,non,09:00,19:00
+autres,ct015,2023-09-04,traitement,acte de naissance,224.0,37,22,signature manquante,8,83,non,09:00,18:00
+autres,ct020,2023-08-20,traitement,carte d'identité,93.0,39,6,erreur acte,3,17,non,07:45,17:45
+autres,ct019,2023-10-22,traitement,certificat de nationalité,100.0,24,5,papiers incomplets,12,116,non,08:45,18:45
+autres,ct022,2023-03-30,traitement,livre de famille,90.0,28,12,signature manquante,10,58,non,08:45,17:45
+autres,ct026,2023-05-16,traitement,carte d'identité,99.0,41,13,signature manquante,9,69,non,07:45,16:45
+autres,ct030,2023-08-05,traitement,casier judiciaire,128.0,15,16,date expiration,8,25,non,09:45,18:45
+autres,ct047,2023-06-29,traitement,casier judiciaire,269.0,42,7,adresse invalide,3,70,oui,08:00,18:00
+autres,ct018,2023-11-29,traitement,certificat de nationalité,195.0,44,9,erreur acte,6,21,non,09:45,18:45
+autres,ct043,2023-06-27,traitement,casier judiciaire,27.0,42,3,adresse invalide,14,15,non,08:45,16:45
+autres,ct018,2023-08-14,traitement,livre de famille,100.0,5,13,double demande,10,57,non,07:45,16:45
+autres,ct027,2023-06-22,traitement,carte d'identité,261.0,33,22,non éligible,4,87,non,09:15,18:15
+autres,ct026,2023-09-15,traitement,passeport,26.0,32,3,signature manquante,13,59,non,09:00,17:00
+autres,ct033,2023-02-18,traitement,acte de naissance,32.0,21,4,photo non conforme,12,97,non,08:30,18:30
+autres,ct051,2023-10-31,traitement,casier judiciaire,45.0,44,6,non éligible,6,42,oui,08:45,18:45
+autres,ct005,2023-06-26,traitement,acte de naissance,88.0,23,2,adresse invalide,12,18,non,08:30,17:30
+autres,ct051,2023-12-16,traitement,certificat de nationalité,96.0,6,7,double demande,5,59,non,08:00,17:00
+autres,ct016,2023-09-14,traitement,carte d'identité,35.0,27,3,date expiration,6,51,non,08:00,17:00
+autres,ct038,2023-03-26,traitement,livre de famille,53.0,23,7,erreur acte,14,106,non,08:45,18:45
+autres,ct035,2023-12-10,traitement,passeport,31.0,33,4,photo non conforme,3,101,non,09:00,18:00
+autres,ct028,2023-11-20,traitement,carte d'identité,229.0,37,4,erreur acte,6,12,non,07:15,16:15
+autres,ct024,2023-07-24,traitement,carte d'identité,47.0,39,3,double demande,11,119,non,08:15,18:15
+autres,ct047,2023-03-06,traitement,casier judiciaire,86.0,45,6,papiers incomplets,9,51,non,08:30,17:30
+autres,ct024,2023-12-07,traitement,casier judiciaire,83.0,22,3,erreur acte,3,77,oui,09:45,17:45
+autres,ct023,2023-08-24,traitement,livre de famille,178.0,42,22,non éligible,10,63,non,07:30,17:30
+autres,ct052,2023-04-17,traitement,livre de famille,26.0,23,3,signature manquante,14,107,non,09:45,17:45
+autres,ct043,2023-06-21,traitement,livre de famille,178.0,34,2,date expiration,12,52,non,08:00,18:00
+autres,ct016,2023-03-30,traitement,acte de naissance,48.0,33,6,erreur acte,2,23,non,08:30,17:30
+autres,ct026,2023-07-31,traitement,passeport,83.0,33,2,papiers incomplets,13,68,non,08:15,18:15
+autres,ct055,2023-07-06,traitement,certificat de nationalité,93.0,6,13,double demande,4,69,non,08:30,17:30
+autres,ct049,2023-11-25,traitement,acte de naissance,95.0,30,6,photo non conforme,7,96,non,08:45,18:45
+autres,ct051,2023-10-09,traitement,casier judiciaire,171.0,19,22,adresse invalide,13,98,non,09:00,19:00
+autres,ct047,2023-11-16,traitement,passeport,80.0,44,8,signature manquante,13,98,non,09:30,18:30
+autres,ct003,2023-10-01,traitement,acte de naissance,57.0,34,5,papiers incomplets,2,58,non,09:00,19:00
+autres,ct034,2023-12-22,traitement,acte de naissance,55.0,27,1,signature manquante,14,80,non,07:00,16:00
+autres,ct005,2023-05-25,traitement,certificat de nationalité,230.0,20,22,non éligible,11,41,non,07:30,15:30
+autres,ct048,2023-02-01,traitement,acte de naissance,29.0,6,1,non éligible,13,28,non,09:00,18:00
+autres,ct034,2023-01-03,traitement,certificat de nationalité,224.0,37,22,signature manquante,7,58,non,07:45,16:45
+autres,ct040,2023-05-02,traitement,livre de famille,115.0,14,15,erreur acte,12,67,non,09:45,18:45
+autres,ct036,2023-03-16,traitement,passeport,57.0,25,2,date expiration,11,43,non,07:00,15:00
+autres,ct015,2023-05-26,traitement,acte de naissance,44.0,11,2,erreur acte,2,42,non,09:45,19:45
+autres,ct041,2023-11-10,traitement,casier judiciaire,239.0,22,22,double demande,6,92,non,09:45,17:45
+autres,ct004,2023-08-28,traitement,passeport,150.0,21,19,date expiration,5,30,non,09:30,17:30
+autres,ct033,2023-04-21,traitement,carte d'identité,26.0,7,0,signature manquante,4,36,non,08:30,18:30
+autres,ct004,2023-10-27,traitement,passeport,271.5,36,4,erreur acte,13,74,oui,09:30,18:30
+autres,ct005,2023-03-23,traitement,carte d'identité,211.0,10,3,signature manquante,7,116,non,07:30,16:30
+autres,ct003,2023-05-03,traitement,certificat de nationalité,91.0,33,4,double demande,9,62,non,07:45,15:45
+autres,ct029,2023-10-14,traitement,certificat de nationalité,238.0,37,22,adresse invalide,6,12,non,08:00,17:00
+autres,ct042,2023-03-10,traitement,carte d'identité,70.0,24,8,papiers incomplets,8,15,non,08:00,16:00
+autres,ct016,2023-10-28,traitement,casier judiciaire,271.5,6,22,signature manquante,8,115,non,09:15,19:15
+autres,ct011,2023-07-04,traitement,carte d'identité,184.0,6,14,non éligible,9,37,non,09:45,18:45
+autres,ct033,2023-09-03,traitement,casier judiciaire,57.0,7,8,date expiration,9,63,non,07:00,15:00
+autres,autres,2023-07-12,traitement,certificat de nationalité,67.0,21,3,signature manquante,4,66,oui,09:15,17:15
+autres,ct015,2023-01-21,traitement,passeport,60.0,12,8,erreur acte,10,53,non,08:00,17:00
+autres,ct012,2023-08-02,traitement,carte d'identité,50.0,17,1,signature manquante,2,46,non,07:00,16:00
+autres,ct034,2023-08-20,traitement,acte de naissance,88.0,5,8,adresse invalide,15,113,non,09:00,17:00
+autres,ct037,2023-10-07,traitement,acte de naissance,28.0,11,3,erreur acte,13,22,non,08:30,17:30
+autres,ct031,2023-05-24,traitement,acte de naissance,269.0,23,16,adresse invalide,4,45,non,09:15,18:15
+autres,ct045,2023-12-19,traitement,certificat de nationalité,261.0,24,22,adresse invalide,13,67,non,07:15,15:15
+autres,ct031,2023-12-17,traitement,carte d'identité,194.0,6,10,signature manquante,9,78,non,07:00,16:00
+autres,ct053,2023-06-21,traitement,passeport,87.0,43,12,non éligible,3,63,non,08:45,16:45
+autres,ct043,2023-10-07,traitement,carte d'identité,271.5,37,22,signature manquante,3,20,non,07:00,17:00
+autres,ct039,2023-03-19,traitement,casier judiciaire,34.0,25,2,date expiration,6,80,non,09:00,17:00
+autres,ct029,2023-10-06,traitement,casier judiciaire,91.0,31,4,adresse invalide,7,112,non,08:30,18:30
+autres,ct014,2023-09-16,traitement,certificat de nationalité,42.0,8,0,signature manquante,12,116,non,08:30,17:30
+autres,ct053,2023-01-22,traitement,certificat de nationalité,42.0,26,3,photo non conforme,9,114,non,09:00,17:00
+autres,ct026,2023-03-27,traitement,carte d'identité,75.0,20,4,non éligible,10,74,non,07:15,15:15
+autres,ct035,2023-12-09,traitement,livre de famille,21.0,20,1,adresse invalide,12,12,oui,08:30,16:30
+autres,ct007,2023-12-13,traitement,acte de naissance,60.0,14,4,non éligible,12,89,non,07:15,15:15
+autres,ct024,2023-02-09,traitement,livre de famille,100.0,11,7,photo non conforme,9,112,non,09:45,19:45
+autres,ct011,2023-12-25,traitement,livre de famille,98.0,35,11,signature manquante,13,12,non,08:45,18:45
+autres,autres,2023-09-11,traitement,certificat de nationalité,116.0,27,4,signature manquante,8,77,non,09:30,19:30
+autres,ct029,2023-10-04,traitement,certificat de nationalité,23.0,31,2,adresse invalide,8,87,non,09:00,17:00
+autres,ct055,2023-07-30,traitement,passeport,63.0,13,3,double demande,7,109,non,09:00,17:00
+autres,ct011,2023-12-03,traitement,certificat de nationalité,35.0,23,2,photo non conforme,9,13,non,08:15,16:15
+autres,ct004,2023-06-29,traitement,passeport,26.0,30,2,papiers incomplets,7,88,non,08:00,18:00
+autres,ct016,2023-12-21,traitement,acte de naissance,70.0,44,5,double demande,6,32,non,09:00,17:00
+autres,ct033,2023-03-20,traitement,passeport,40.0,6,4,double demande,3,84,non,08:15,17:15
+autres,ct020,2023-11-17,traitement,acte de naissance,99.0,16,9,papiers incomplets,7,115,non,08:00,16:00
+autres,ct033,2023-02-14,traitement,carte d'identité,38.0,39,1,adresse invalide,4,53,non,07:15,16:15
+autres,ct016,2023-10-12,traitement,carte d'identité,271.5,19,15,erreur acte,14,113,non,08:45,16:45
+autres,ct040,2023-11-08,traitement,certificat de nationalité,21.0,25,2,photo non conforme,3,72,non,09:45,19:45
+autres,ct034,2023-08-15,traitement,acte de naissance,69.0,34,2,double demande,2,36,non,08:30,17:30
+autres,ct008,2023-09-01,traitement,livre de famille,62.0,28,5,adresse invalide,13,109,non,07:30,17:30
+autres,ct039,2023-10-29,traitement,casier judiciaire,70.0,36,10,double demande,13,31,non,08:00,16:00
+autres,ct031,2023-11-25,traitement,casier judiciaire,91.0,38,9,non éligible,5,32,non,07:45,17:45
+autres,ct005,2023-11-19,traitement,certificat de nationalité,37.0,18,0,signature manquante,2,18,non,07:15,15:15
+autres,ct016,2023-02-24,traitement,certificat de nationalité,90.0,30,2,non éligible,6,40,non,08:30,18:30
+autres,ct004,2023-10-26,traitement,acte de naissance,97.0,25,6,papiers incomplets,8,31,non,07:15,17:15
+autres,ct042,2023-06-24,traitement,certificat de nationalité,85.0,45,11,papiers incomplets,4,86,non,08:30,18:30
+autres,ct034,2023-09-13,traitement,acte de naissance,53.0,17,5,double demande,4,97,non,07:45,17:45
+autres,ct031,2023-08-09,traitement,certificat de nationalité,60.0,27,1,erreur acte,8,54,non,09:00,18:00
+autres,ct003,2023-08-10,traitement,carte d'identité,85.0,32,9,date expiration,8,70,non,07:30,17:30
+autres,ct034,2023-08-13,traitement,livre de famille,271.5,27,5,double demande,6,41,non,08:00,18:00
+autres,ct016,2023-05-28,traitement,certificat de nationalité,65.0,35,9,date expiration,3,71,non,09:00,17:00
+autres,ct029,2023-05-05,traitement,casier judiciaire,75.0,13,8,erreur acte,13,22,oui,09:30,18:30
+autres,ct049,2023-01-11,traitement,passeport,45.0,20,4,photo non conforme,11,67,non,08:45,16:45
+autres,ct026,2023-09-16,traitement,certificat de nationalité,63.0,20,2,photo non conforme,13,73,oui,08:15,18:15
+autres,ct041,2023-12-25,traitement,carte d'identité,42.0,27,4,erreur acte,11,87,non,08:15,18:15
+autres,ct042,2023-09-24,traitement,livre de famille,74.0,40,4,photo non conforme,5,47,non,09:45,19:45
+autres,ct042,2023-02-25,traitement,livre de famille,72.0,14,1,adresse invalide,9,19,non,07:30,15:30
+autres,ct018,2023-12-31,traitement,casier judiciaire,258.0,31,4,erreur acte,2,74,non,08:00,18:00
+autres,ct015,2023-09-05,traitement,casier judiciaire,253.0,36,10,adresse invalide,14,86,non,07:15,17:15
+autres,ct020,2023-08-15,traitement,certificat de nationalité,259.0,26,5,double demande,8,22,non,07:45,16:45
+autres,ct021,2023-03-12,traitement,carte d'identité,271.0,22,3,double demande,7,31,non,09:45,19:45
+autres,ct019,2023-02-17,traitement,acte de naissance,68.0,36,7,date expiration,2,70,non,08:15,16:15
+autres,ct001,2023-08-21,traitement,passeport,106.0,43,14,photo non conforme,11,28,non,07:30,16:30
+autres,ct007,2023-09-24,traitement,acte de naissance,162.0,32,12,signature manquante,4,112,non,07:30,16:30
+autres,ct026,2023-02-24,traitement,casier judiciaire,39.0,9,0,signature manquante,11,66,non,09:15,18:15
+autres,ct018,2023-04-20,traitement,acte de naissance,57.0,7,0,signature manquante,2,111,oui,09:00,17:00
+autres,ct023,2023-10-12,traitement,acte de naissance,39.0,26,0,signature manquante,2,76,non,08:45,17:45
+autres,ct042,2023-11-07,traitement,passeport,259.0,14,22,double demande,10,59,non,08:30,18:30
+autres,ct007,2023-05-26,traitement,casier judiciaire,224.0,37,5,signature manquante,4,110,non,09:45,18:45
+autres,ct027,2023-07-10,traitement,acte de naissance,90.0,22,11,double demande,11,86,non,07:45,17:45
+autres,ct014,2023-05-06,traitement,livre de famille,76.0,14,5,non éligible,2,21,non,09:30,18:30
+autres,ct026,2023-05-27,traitement,acte de naissance,41.0,17,3,date expiration,10,91,non,07:45,17:45
+autres,ct014,2023-09-23,traitement,carte d'identité,34.0,8,1,erreur acte,11,28,non,08:30,17:30
+autres,ct009,2023-03-03,traitement,casier judiciaire,211.0,20,22,adresse invalide,8,97,non,09:00,19:00
+autres,ct006,2023-08-13,traitement,acte de naissance,98.0,12,12,photo non conforme,11,20,non,07:30,16:30
+autres,ct001,2023-01-21,traitement,carte d'identité,36.0,6,3,papiers incomplets,10,12,non,09:30,18:30
+autres,ct020,2023-10-13,traitement,certificat de nationalité,66.0,37,2,non éligible,8,13,non,07:45,15:45
+autres,ct016,2023-10-28,traitement,passeport,269.0,12,8,double demande,8,70,non,09:30,18:30
+autres,ct009,2023-08-20,traitement,certificat de nationalité,25.0,43,2,signature manquante,8,58,oui,08:15,17:15
+autres,ct024,2023-11-30,traitement,casier judiciaire,41.0,45,3,double demande,7,83,non,09:45,17:45
+autres,ct035,2023-09-24,traitement,casier judiciaire,71.0,43,6,adresse invalide,5,54,oui,09:15,17:15
+autres,ct009,2023-09-10,traitement,livre de famille,126.0,26,4,date expiration,7,110,non,09:45,17:45
+autres,ct032,2023-06-25,traitement,casier judiciaire,92.0,15,0,signature manquante,7,25,non,09:30,19:30
+autres,ct012,2023-03-18,traitement,livre de famille,213.0,33,6,adresse invalide,5,85,non,08:45,16:45
+autres,ct039,2023-03-30,traitement,certificat de nationalité,222.0,40,22,non éligible,4,35,non,07:00,17:00
+autres,ct010,2023-10-21,traitement,livre de famille,68.0,24,10,date expiration,8,42,non,09:45,17:45
+autres,ct043,2023-09-06,traitement,carte d'identité,78.0,35,8,non éligible,7,21,non,09:30,19:30
+autres,ct010,2023-11-28,traitement,livre de famille,59.0,6,6,adresse invalide,9,18,non,08:15,16:15
+autres,ct037,2023-04-28,traitement,carte d'identité,67.0,31,8,signature manquante,2,63,non,07:00,15:00
+autres,ct052,2023-09-10,traitement,livre de famille,108.0,10,7,signature manquante,14,34,non,07:00,15:00
+autres,ct035,2023-03-25,traitement,livre de famille,21.0,34,2,erreur acte,3,27,non,09:15,18:15
+autres,autres,2023-09-13,traitement,passeport,170.0,35,16,date expiration,7,41,non,07:45,15:45
+autres,ct027,2023-07-10,traitement,casier judiciaire,66.0,14,2,photo non conforme,10,87,non,07:30,17:30
+autres,ct035,2023-09-20,traitement,passeport,80.0,38,7,non éligible,6,17,non,09:15,19:15
+autres,ct044,2023-02-26,traitement,carte d'identité,206.0,27,4,double demande,2,89,non,07:30,16:30
+autres,ct025,2023-12-07,traitement,livre de famille,41.0,35,2,photo non conforme,2,77,non,08:00,18:00
+autres,ct045,2023-09-22,traitement,certificat de nationalité,88.0,15,1,double demande,6,14,non,09:30,18:30
+autres,ct020,2023-05-17,traitement,acte de naissance,22.0,14,3,non éligible,7,36,non,07:00,17:00
+autres,ct031,2023-12-03,traitement,livre de famille,55.0,35,7,non éligible,4,83,non,08:30,16:30
+autres,ct023,2023-10-13,traitement,acte de naissance,47.0,40,5,non éligible,4,107,non,09:15,18:15
+autres,ct021,2023-02-11,traitement,certificat de nationalité,138.0,7,4,signature manquante,5,44,non,07:45,17:45
+autres,ct019,2023-08-27,traitement,passeport,57.0,7,6,date expiration,8,106,non,09:00,17:00
+autres,autres,2023-02-26,traitement,certificat de nationalité,33.0,7,4,double demande,15,54,non,09:45,18:45
+autres,ct034,2023-07-18,traitement,carte d'identité,216.0,37,22,date expiration,14,94,non,09:30,19:30
+autres,ct006,2023-03-23,traitement,casier judiciaire,51.0,39,2,non éligible,13,104,oui,07:30,17:30
+autres,ct041,2023-10-30,traitement,livre de famille,48.0,17,2,photo non conforme,12,37,non,08:45,17:45
+autres,ct012,2023-03-21,traitement,certificat de nationalité,47.0,10,2,date expiration,7,96,non,08:00,16:00
+autres,ct022,2023-01-25,traitement,certificat de nationalité,60.0,12,6,signature manquante,3,106,non,08:15,16:15
+autres,ct023,2023-11-16,traitement,certificat de nationalité,88.0,38,11,signature manquante,6,31,non,08:30,16:30
+autres,ct026,2023-02-12,traitement,livre de famille,38.0,14,4,photo non conforme,9,28,oui,09:45,19:45
+autres,ct024,2023-08-13,traitement,passeport,21.0,21,2,photo non conforme,12,91,non,07:45,17:45
+autres,ct019,2023-01-30,traitement,certificat de nationalité,271.5,28,22,erreur acte,7,102,non,07:30,16:30
+autres,ct037,2023-03-09,traitement,livre de famille,271.5,17,3,double demande,11,18,non,08:45,16:45
+autres,ct039,2023-10-15,traitement,passeport,26.0,6,2,signature manquante,14,36,non,08:45,16:45
+autres,ct036,2023-04-15,traitement,carte d'identité,32.0,18,3,double demande,11,67,non,09:30,18:30
+autres,ct006,2023-02-06,traitement,acte de naissance,87.0,41,1,non éligible,13,32,non,09:30,17:30
+autres,ct022,2023-05-07,traitement,acte de naissance,163.0,18,20,papiers incomplets,4,10,non,09:45,18:45
+autres,ct043,2023-06-26,traitement,acte de naissance,149.0,7,9,erreur acte,4,65,non,07:15,15:15
+autres,ct019,2023-09-16,traitement,passeport,88.0,11,4,signature manquante,14,81,non,08:30,17:30
+autres,ct012,2023-09-18,traitement,acte de naissance,100.0,31,4,adresse invalide,8,24,non,07:15,17:15
+autres,autres,2023-09-23,traitement,passeport,72.0,16,10,date expiration,6,51,non,09:15,17:15
+autres,ct053,2023-12-29,traitement,passeport,83.0,34,10,date expiration,14,111,non,07:45,17:45
+autres,ct008,2023-03-30,traitement,casier judiciaire,33.0,40,2,papiers incomplets,11,21,non,09:45,18:45
+autres,ct027,2023-01-31,traitement,certificat de nationalité,54.0,30,6,date expiration,12,96,oui,09:15,17:15
+autres,ct028,2023-12-12,traitement,acte de naissance,187.0,36,20,non éligible,15,93,non,09:00,18:00
+autres,ct038,2023-04-11,traitement,certificat de nationalité,173.0,5,18,signature manquante,5,109,oui,07:00,15:00
+autres,ct012,2023-06-18,traitement,casier judiciaire,44.0,20,1,adresse invalide,5,111,non,09:30,18:30
+autres,autres,2023-04-27,traitement,certificat de nationalité,240.0,11,13,double demande,2,62,non,07:30,16:30
+autres,ct011,2023-12-15,traitement,casier judiciaire,60.0,23,8,signature manquante,15,21,oui,08:00,18:00
+autres,ct016,2023-05-23,traitement,livre de famille,66.0,41,4,papiers incomplets,12,89,non,09:15,18:15
+autres,ct043,2023-07-06,traitement,casier judiciaire,90.0,36,10,double demande,15,102,non,07:45,15:45
+autres,ct015,2023-11-16,traitement,acte de naissance,68.0,19,8,papiers incomplets,5,77,non,09:15,19:15
+autres,ct049,2023-01-30,traitement,livre de famille,62.0,6,8,papiers incomplets,5,56,oui,09:30,19:30
+autres,ct039,2023-04-22,traitement,certificat de nationalité,55.0,6,0,signature manquante,7,112,non,08:00,17:00
+autres,ct049,2023-08-14,traitement,casier judiciaire,41.0,17,4,date expiration,13,15,non,07:00,15:00
+autres,ct042,2023-06-24,traitement,passeport,26.0,7,2,papiers incomplets,3,66,non,09:00,18:00
+autres,ct012,2023-06-10,traitement,acte de naissance,80.0,10,1,papiers incomplets,5,97,non,07:15,17:15
+autres,ct019,2023-10-16,traitement,passeport,52.0,25,3,adresse invalide,2,94,non,07:15,17:15
+autres,ct043,2023-04-09,traitement,acte de naissance,36.0,12,2,non éligible,14,56,non,09:30,18:30
+autres,ct023,2023-10-20,traitement,livre de famille,174.0,18,8,double demande,11,45,non,09:15,17:15
+autres,ct044,2023-12-21,traitement,certificat de nationalité,85.0,32,2,adresse invalide,8,23,non,08:30,18:30
+autres,ct038,2023-05-24,traitement,acte de naissance,271.5,22,16,photo non conforme,13,92,non,07:15,15:15
+autres,ct006,2023-03-16,traitement,passeport,135.0,11,6,photo non conforme,14,89,non,08:00,17:00
+autres,ct027,2023-12-23,traitement,carte d'identité,33.0,18,0,signature manquante,9,79,oui,09:15,18:15
+autres,ct016,2023-09-24,traitement,casier judiciaire,69.0,28,1,double demande,7,89,non,09:00,19:00
+autres,ct042,2023-10-17,traitement,passeport,271.5,11,22,date expiration,4,19,oui,09:15,18:15
+autres,ct041,2023-01-15,traitement,acte de naissance,271.5,26,22,adresse invalide,3,38,non,08:30,17:30
+autres,ct033,2023-12-23,traitement,livre de famille,54.0,35,1,non éligible,12,56,non,07:00,15:00
+autres,autres,2023-06-02,traitement,acte de naissance,122.0,41,14,photo non conforme,4,91,non,07:15,16:15
+autres,ct028,2023-12-21,traitement,livre de famille,20.0,11,0,signature manquante,9,103,non,07:45,15:45
+autres,ct051,2023-12-29,traitement,livre de famille,187.0,12,22,date expiration,2,39,non,09:30,19:30
+autres,ct007,2023-10-07,traitement,passeport,265.0,26,22,papiers incomplets,9,10,non,09:45,18:45
+autres,ct011,2023-12-19,traitement,acte de naissance,54.0,33,2,papiers incomplets,5,39,non,08:45,18:45
+autres,ct025,2023-07-03,traitement,casier judiciaire,87.0,43,1,signature manquante,6,39,non,09:00,19:00
+autres,ct045,2023-05-29,traitement,carte d'identité,72.0,8,7,papiers incomplets,7,80,non,09:30,17:30
+autres,ct006,2023-08-14,traitement,carte d'identité,22.0,10,3,papiers incomplets,14,59,non,08:15,18:15
+autres,ct027,2023-08-12,traitement,acte de naissance,82.0,23,5,non éligible,2,44,non,09:45,18:45
+autres,ct024,2023-12-07,traitement,certificat de nationalité,24.0,17,1,adresse invalide,12,81,non,08:00,17:00
+autres,ct045,2023-07-17,traitement,certificat de nationalité,60.0,39,3,double demande,2,78,non,07:00,16:00
+autres,ct048,2023-02-07,traitement,casier judiciaire,20.0,42,0,signature manquante,8,32,non,07:15,17:15
+autres,ct005,2023-11-19,traitement,carte d'identité,53.0,39,7,papiers incomplets,4,46,non,07:15,16:15
+autres,ct030,2023-07-20,traitement,acte de naissance,59.0,10,6,photo non conforme,8,86,non,08:00,17:00
+autres,ct010,2023-07-20,traitement,certificat de nationalité,78.0,12,9,date expiration,11,59,non,08:00,16:00
+autres,ct028,2023-06-30,traitement,passeport,133.0,39,14,non éligible,9,51,non,08:15,16:15
+autres,ct053,2023-11-18,traitement,passeport,66.0,26,9,photo non conforme,7,37,non,08:45,16:45
+autres,ct044,2023-04-02,traitement,acte de naissance,85.0,23,0,signature manquante,4,91,non,09:45,17:45
+autres,ct044,2023-10-17,traitement,certificat de nationalité,148.0,23,13,non éligible,10,47,non,07:15,16:15
+autres,ct043,2023-01-10,traitement,livre de famille,123.0,37,10,signature manquante,3,27,non,07:45,17:45
+autres,ct021,2023-06-24,traitement,passeport,45.0,27,3,adresse invalide,15,111,non,07:00,15:00
+autres,ct018,2023-08-10,traitement,passeport,243.0,33,15,non éligible,4,93,non,07:45,15:45
+autres,ct005,2023-02-24,traitement,livre de famille,29.0,25,0,signature manquante,8,111,non,09:15,18:15
+autres,ct031,2023-04-24,traitement,acte de naissance,98.0,29,10,double demande,9,27,non,07:45,15:45
+autres,ct022,2023-03-27,traitement,acte de naissance,39.0,19,0,signature manquante,14,93,non,08:15,17:15
+autres,ct037,2023-05-19,traitement,carte d'identité,71.0,44,5,erreur acte,8,47,non,08:30,16:30
+autres,ct047,2023-11-19,traitement,passeport,75.0,21,4,date expiration,15,118,non,08:30,17:30
+autres,ct006,2023-03-23,traitement,passeport,97.0,31,10,adresse invalide,13,99,non,07:00,15:00
+autres,autres,2023-12-18,traitement,casier judiciaire,113.0,32,6,date expiration,15,87,non,08:45,16:45
+autres,ct048,2023-03-06,traitement,casier judiciaire,82.0,18,0,signature manquante,4,69,non,08:45,18:45
+autres,ct001,2023-02-23,traitement,certificat de nationalité,248.0,12,10,adresse invalide,2,55,oui,07:45,17:45
+autres,ct007,2023-08-26,traitement,acte de naissance,98.0,33,1,signature manquante,10,110,non,09:00,17:00
+autres,ct004,2023-07-25,traitement,carte d'identité,89.0,10,9,adresse invalide,8,105,non,07:30,17:30
+autres,ct044,2023-04-30,traitement,casier judiciaire,130.0,10,14,date expiration,11,11,non,08:30,17:30
+autres,ct010,2023-08-30,traitement,passeport,49.0,40,1,non éligible,4,46,non,07:15,17:15
+autres,ct004,2023-06-01,traitement,carte d'identité,22.0,40,2,adresse invalide,14,78,non,08:15,16:15
+autres,ct033,2023-11-15,traitement,certificat de nationalité,34.0,8,3,date expiration,14,12,non,09:30,17:30
+autres,ct037,2023-12-09,traitement,livre de famille,151.0,32,18,adresse invalide,7,43,non,09:00,17:00
+autres,ct032,2023-03-15,traitement,passeport,58.0,30,1,non éligible,2,118,oui,07:30,16:30
+autres,ct007,2023-06-21,traitement,acte de naissance,28.0,22,0,signature manquante,4,73,non,08:15,18:15
+autres,autres,2023-12-23,traitement,livre de famille,271.5,34,22,photo non conforme,11,58,non,09:15,19:15
+autres,ct045,2023-05-07,traitement,acte de naissance,20.0,8,1,double demande,4,48,non,09:45,18:45
+autres,ct045,2023-03-19,traitement,livre de famille,88.0,27,6,adresse invalide,11,92,non,09:45,18:45
+autres,ct041,2023-12-14,traitement,livre de famille,39.0,7,1,double demande,9,45,oui,08:00,18:00
+autres,ct040,2023-10-09,traitement,certificat de nationalité,41.0,23,5,photo non conforme,3,58,non,07:00,15:00
+autres,ct010,2023-05-04,traitement,passeport,242.0,43,22,adresse invalide,12,105,non,07:15,15:15
+autres,ct026,2023-02-05,traitement,certificat de nationalité,220.0,34,13,photo non conforme,6,17,non,08:30,18:30
+autres,ct025,2023-04-19,traitement,casier judiciaire,165.0,29,7,papiers incomplets,15,85,non,08:15,18:15
+autres,ct021,2023-10-09,traitement,casier judiciaire,84.0,40,5,erreur acte,11,99,non,07:30,16:30
+autres,ct015,2023-02-10,traitement,casier judiciaire,88.0,22,5,erreur acte,9,101,non,09:15,19:15
+autres,ct032,2023-11-24,traitement,passeport,109.0,13,13,double demande,9,49,non,09:45,19:45
+autres,ct030,2023-10-07,traitement,certificat de nationalité,45.0,39,3,adresse invalide,10,105,non,07:30,16:30
+autres,ct034,2023-10-26,traitement,carte d'identité,44.0,6,1,date expiration,6,70,non,09:15,17:15
+autres,ct008,2023-08-30,traitement,certificat de nationalité,161.0,23,3,adresse invalide,4,32,non,09:30,17:30
+autres,ct027,2023-05-05,traitement,certificat de nationalité,100.0,21,1,date expiration,4,109,non,09:00,18:00
+autres,ct031,2023-11-03,traitement,casier judiciaire,138.0,42,18,erreur acte,9,92,non,09:45,19:45
+autres,ct009,2023-02-24,traitement,carte d'identité,36.0,22,4,papiers incomplets,15,120,non,09:15,18:15
+autres,ct014,2023-02-01,traitement,acte de naissance,64.0,16,1,date expiration,11,13,non,08:45,17:45
+autres,autres,2023-09-17,traitement,passeport,69.0,28,2,date expiration,8,104,non,08:15,16:15
+autres,ct035,2023-05-14,traitement,certificat de nationalité,91.0,40,7,non éligible,7,37,non,08:45,18:45
+autres,ct010,2023-11-30,traitement,acte de naissance,45.0,34,1,non éligible,2,45,non,08:30,17:30
+autres,ct015,2023-11-21,traitement,casier judiciaire,91.0,27,11,adresse invalide,2,77,non,07:00,17:00
+autres,ct007,2023-01-20,traitement,certificat de nationalité,96.0,15,9,double demande,8,32,non,07:30,15:30
+autres,ct012,2023-01-29,traitement,passeport,53.0,18,4,non éligible,3,109,non,09:30,19:30
+autres,ct004,2023-12-12,traitement,acte de naissance,151.0,42,20,papiers incomplets,9,17,oui,09:00,18:00
+autres,ct042,2023-03-15,traitement,passeport,66.0,6,2,double demande,5,23,oui,07:15,16:15
+autres,ct026,2023-01-08,traitement,casier judiciaire,271.5,43,8,adresse invalide,5,92,non,09:15,18:15
+autres,ct035,2023-12-02,traitement,livre de famille,86.0,5,8,adresse invalide,3,18,non,08:15,18:15
+autres,ct010,2023-11-16,traitement,casier judiciaire,36.0,10,3,double demande,2,46,oui,08:45,18:45
+autres,ct051,2023-08-23,traitement,livre de famille,86.0,43,5,erreur acte,4,82,oui,08:30,17:30
+autres,ct006,2023-10-14,traitement,certificat de nationalité,32.0,13,1,photo non conforme,11,31,non,09:00,17:00
+autres,ct030,2023-06-08,traitement,livre de famille,96.0,28,8,erreur acte,11,44,oui,07:45,16:45
+autres,ct001,2023-08-20,traitement,casier judiciaire,83.0,20,9,double demande,3,109,non,07:30,17:30
+autres,ct019,2023-06-05,traitement,acte de naissance,20.0,19,1,date expiration,3,33,non,07:00,16:00
+autres,ct026,2023-10-11,traitement,carte d'identité,73.0,42,5,date expiration,13,35,non,09:45,19:45
+autres,ct051,2023-02-08,traitement,acte de naissance,20.0,44,1,signature manquante,3,95,non,07:45,17:45
+autres,ct007,2023-08-14,traitement,casier judiciaire,37.0,31,3,signature manquante,12,43,non,09:45,17:45
+autres,ct009,2023-03-05,traitement,casier judiciaire,96.0,29,11,photo non conforme,4,43,non,07:00,17:00
+autres,ct043,2023-10-08,traitement,casier judiciaire,94.0,38,5,signature manquante,3,54,non,09:15,17:15
+autres,ct004,2023-12-16,traitement,passeport,107.0,40,13,photo non conforme,12,79,non,08:15,16:15
+autres,ct035,2023-05-31,traitement,passeport,45.0,35,5,photo non conforme,13,13,non,07:45,17:45
+autres,ct048,2023-03-22,traitement,certificat de nationalité,67.0,44,6,signature manquante,9,69,non,09:15,17:15
+autres,ct042,2023-01-26,traitement,certificat de nationalité,82.0,40,6,adresse invalide,11,90,non,09:30,19:30
+autres,ct026,2023-01-18,traitement,carte d'identité,56.0,26,7,papiers incomplets,14,36,non,08:45,17:45
+autres,ct047,2023-04-11,traitement,livre de famille,85.0,28,8,erreur acte,7,17,non,08:30,18:30
+autres,ct001,2023-06-15,traitement,livre de famille,75.0,37,2,signature manquante,10,88,non,09:15,17:15
+autres,ct029,2023-10-05,traitement,acte de naissance,70.0,12,9,papiers incomplets,14,50,non,08:45,17:45
+autres,ct005,2023-06-05,traitement,certificat de nationalité,51.0,5,5,date expiration,13,17,non,08:15,17:15
+autres,ct011,2023-07-15,traitement,passeport,271.5,7,3,papiers incomplets,2,14,non,09:30,18:30
+autres,ct009,2023-01-28,traitement,carte d'identité,46.0,32,5,signature manquante,2,103,non,09:00,19:00
+autres,ct005,2023-07-01,traitement,certificat de nationalité,231.0,18,22,photo non conforme,10,115,oui,09:00,19:00
+autres,ct014,2023-02-25,traitement,certificat de nationalité,64.0,9,3,photo non conforme,13,24,non,07:15,16:15
+autres,ct038,2023-01-22,traitement,livre de famille,53.0,18,5,date expiration,14,54,non,09:30,19:30
+autres,ct036,2023-06-24,traitement,casier judiciaire,209.0,18,22,photo non conforme,12,35,non,08:00,16:00
+autres,ct003,2023-01-19,traitement,casier judiciaire,236.0,9,3,papiers incomplets,9,15,non,08:45,17:45
+autres,ct025,2023-05-20,traitement,livre de famille,145.0,38,10,date expiration,3,65,non,09:00,19:00
+autres,ct028,2023-02-17,traitement,acte de naissance,100.0,13,14,photo non conforme,7,25,non,09:00,17:00
+autres,ct012,2023-11-23,traitement,carte d'identité,55.0,9,6,adresse invalide,14,75,non,07:00,17:00
+autres,ct041,2023-01-26,traitement,acte de naissance,29.0,29,0,signature manquante,5,99,non,09:45,17:45
+autres,ct042,2023-03-07,traitement,passeport,22.0,43,1,adresse invalide,4,79,non,09:00,19:00
+autres,ct026,2023-06-25,traitement,acte de naissance,184.0,28,4,date expiration,14,91,non,07:30,15:30
+autres,ct038,2023-07-30,traitement,livre de famille,209.0,12,11,adresse invalide,4,91,non,08:45,17:45
+autres,ct004,2023-02-21,traitement,certificat de nationalité,24.0,16,0,signature manquante,10,39,non,08:00,16:00
+autres,ct045,2023-02-01,traitement,certificat de nationalité,99.0,18,6,date expiration,8,114,oui,08:15,18:15
+autres,ct003,2023-10-17,traitement,certificat de nationalité,132.0,21,12,signature manquante,4,98,non,08:00,17:00
+autres,ct055,2023-11-29,traitement,certificat de nationalité,53.0,35,6,erreur acte,12,19,non,07:15,17:15
+autres,ct003,2023-03-19,traitement,casier judiciaire,213.0,40,8,date expiration,15,25,oui,07:45,16:45
+autres,ct032,2023-03-02,traitement,passeport,179.0,22,22,signature manquante,14,90,non,08:15,18:15
+autres,ct029,2023-11-20,traitement,livre de famille,270.0,22,22,non éligible,11,102,non,08:00,18:00
+autres,ct023,2023-07-30,traitement,livre de famille,58.0,39,4,date expiration,7,107,non,09:30,19:30
+autres,ct025,2023-02-26,traitement,certificat de nationalité,71.0,14,1,non éligible,8,35,non,09:15,19:15
+autres,ct034,2023-02-03,traitement,carte d'identité,46.0,28,5,erreur acte,6,26,non,09:15,17:15
+autres,ct052,2023-07-01,traitement,certificat de nationalité,68.0,10,8,adresse invalide,4,115,non,07:00,16:00
+autres,ct039,2023-08-11,traitement,casier judiciaire,76.0,31,7,date expiration,9,39,non,09:15,19:15
+autres,ct041,2023-08-01,traitement,passeport,97.0,20,7,erreur acte,13,48,non,08:00,16:00
+autres,ct016,2023-02-14,traitement,casier judiciaire,61.0,10,8,adresse invalide,2,88,non,09:45,18:45
+autres,ct018,2023-03-14,traitement,casier judiciaire,145.0,29,7,date expiration,12,93,non,09:15,19:15
+autres,ct011,2023-10-25,traitement,livre de famille,98.0,33,2,erreur acte,15,43,non,09:30,18:30
+autres,ct026,2023-07-28,traitement,carte d'identité,40.0,18,3,double demande,12,62,non,08:15,17:15
+autres,ct006,2023-01-30,traitement,passeport,74.0,41,7,signature manquante,4,30,non,08:00,17:00
+autres,ct015,2023-11-28,traitement,casier judiciaire,47.0,15,1,papiers incomplets,3,78,non,08:30,16:30
+autres,ct038,2023-08-31,traitement,carte d'identité,67.0,30,0,signature manquante,11,25,non,07:15,15:15
+autres,ct010,2023-12-23,traitement,livre de famille,93.0,44,4,signature manquante,15,35,non,09:45,18:45
+autres,ct049,2023-08-14,traitement,carte d'identité,29.0,40,2,papiers incomplets,11,11,non,07:45,17:45
+autres,autres,2023-03-19,traitement,acte de naissance,30.0,41,2,adresse invalide,12,81,oui,09:00,18:00
+autres,ct001,2023-04-25,traitement,acte de naissance,201.0,20,10,signature manquante,15,36,non,07:45,16:45
+autres,ct033,2023-09-13,traitement,certificat de nationalité,209.0,19,22,non éligible,4,45,non,09:00,18:00
+autres,ct051,2023-12-08,traitement,carte d'identité,181.0,5,4,erreur acte,2,118,non,08:45,16:45
+autres,ct022,2023-12-26,traitement,livre de famille,271.5,16,7,signature manquante,11,113,non,09:00,19:00
+autres,ct018,2023-08-25,traitement,carte d'identité,28.0,18,3,non éligible,14,41,non,09:45,18:45
+autres,ct053,2023-07-01,traitement,casier judiciaire,189.0,35,9,signature manquante,8,63,non,09:45,17:45
+autres,ct036,2023-09-29,traitement,casier judiciaire,47.0,39,4,date expiration,8,93,non,08:15,16:15
+autres,ct030,2023-01-13,traitement,passeport,86.0,17,5,non éligible,9,46,oui,08:00,16:00
+autres,ct035,2023-06-30,traitement,passeport,56.0,41,2,erreur acte,14,34,non,07:45,17:45
+autres,ct029,2023-05-11,traitement,certificat de nationalité,184.0,38,19,erreur acte,8,83,non,07:30,16:30
+autres,ct014,2023-10-03,traitement,acte de naissance,110.0,17,12,papiers incomplets,10,42,non,08:30,18:30
+autres,ct019,2023-09-21,traitement,certificat de nationalité,179.0,35,7,non éligible,8,27,non,07:30,15:30
+autres,ct001,2023-06-11,traitement,carte d'identité,91.0,20,9,date expiration,2,60,non,08:00,17:00
+autres,ct052,2023-12-14,traitement,acte de naissance,85.0,45,6,adresse invalide,6,31,non,07:30,15:30
+autres,ct019,2023-02-12,traitement,carte d'identité,271.5,42,18,double demande,8,32,non,07:15,17:15
+autres,ct038,2023-06-21,traitement,carte d'identité,60.0,18,3,erreur acte,5,26,non,07:30,16:30
+autres,ct021,2023-10-02,traitement,certificat de nationalité,55.0,32,2,date expiration,14,48,non,08:45,18:45
+autres,ct051,2023-03-04,traitement,livre de famille,147.0,43,10,non éligible,11,71,non,09:15,17:15
+autres,ct019,2023-03-02,traitement,casier judiciaire,271.5,20,5,photo non conforme,11,76,non,07:30,16:30
+autres,ct006,2023-09-27,traitement,passeport,90.0,39,1,signature manquante,2,63,non,07:45,15:45
+autres,ct022,2023-11-09,traitement,acte de naissance,37.0,13,3,signature manquante,9,20,non,09:00,17:00
+autres,ct040,2023-05-12,traitement,livre de famille,33.0,33,1,signature manquante,4,41,non,07:00,15:00
+autres,ct047,2023-05-21,traitement,acte de naissance,45.0,37,5,double demande,4,80,non,09:45,18:45
+autres,ct055,2023-12-24,traitement,livre de famille,195.0,28,16,signature manquante,9,105,oui,08:45,18:45
+autres,ct012,2023-10-10,traitement,acte de naissance,247.0,30,22,signature manquante,10,20,non,07:45,15:45
+autres,autres,2023-06-11,traitement,certificat de nationalité,224.0,40,22,date expiration,15,113,non,08:15,16:15
+autres,ct018,2023-01-08,traitement,certificat de nationalité,82.0,19,11,date expiration,7,51,non,09:15,18:15
+autres,ct034,2023-02-05,traitement,casier judiciaire,72.0,22,6,date expiration,4,77,non,07:45,15:45
+autres,ct036,2023-05-29,traitement,livre de famille,216.0,30,22,papiers incomplets,15,24,non,07:00,17:00
+autres,ct051,2023-08-08,traitement,acte de naissance,94.0,44,8,non éligible,6,109,non,08:30,16:30
